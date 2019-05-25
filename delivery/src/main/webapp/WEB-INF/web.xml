@@ -1,0 +1,53 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+ 
+  <servlet>
+  	<servlet-name>GetDetails</servlet-name>
+  	<display-name>GetDetails</display-name>
+  	<description></description>
+  	<servlet-class>app.GetDetails</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateDetails</servlet-name>
+  	<display-name>UpdateDetails</display-name>
+  	<description></description>
+  	<servlet-class>app.UpdateDetails</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteOrder</servlet-name>
+  	<display-name>DeleteOrder</display-name>
+  	<description></description>
+  	<servlet-class>app.DeleteOrder</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ConfirmDelivery</servlet-name>
+  	<display-name>ConfirmDelivery</display-name>
+  	<description></description>
+  	<servlet-class>app.ConfirmDelivery</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>GetDetails</servlet-name>
+  	<url-pattern>/GetDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateDetails</servlet-name>
+  	<url-pattern>/UpdateDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteOrder</servlet-name>
+  	<url-pattern>/DeleteOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ConfirmDelivery</servlet-name>
+  	<url-pattern>/ConfirmDelivery</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  <welcome-file>index.html</welcome-file>
+  
+  </welcome-file-list>
+</web-app>
